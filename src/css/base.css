@@ -26,7 +26,13 @@ body {
 
 main {
   flex-grow: 1;
+  width: auto;
 }
 main:has(.back-link) {
   text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
